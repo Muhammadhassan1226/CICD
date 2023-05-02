@@ -185,3 +185,19 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ```
 
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
+ 
+ ### Installing and Configuring Sonarqube Scanner Plugin 
+ 
+1.From the Jenkins Dashboard, navigate to Manage Jenkins > Manage Plugins and install the SonarQube Scanner plugin.
+ 
+2. Back at the Jenkins Dashboard, navigate to Credentials > System from the left navigation.
+3. Click the Global credentials (unrestricted) link in the System table.
+4. Click Add credentials in the left navigation and add the following information:
+
+    Kind: Secret Text
+    Scope: Global
+    Secret: Generate a token at User > My Account > Security in SonarQube, and copy and paste it here.
+
+5. Click OK.
+ 
+ Your Sonarqube Server is Ready to Integrate with Jenkins for Static Code Analysis....
