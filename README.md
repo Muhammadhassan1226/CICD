@@ -197,6 +197,7 @@ Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000
     Kind: Secret Text
     Scope: Global
     Secret: Generate a token at User > My Account > Security in SonarQube, and copy and paste it here.
+    ID: sonarqube( If you Change this you may need to add new ID to Jenkinsfile)
 
 5. Click OK.
  
@@ -237,4 +238,30 @@ Optionally, to copy the new token to your clipboard, click
  
  Secret: Paste Github Personal Access Token that Just Created here
  
+  ID: github( If you Change this you may need to add new ID to Jenkinsfile)
+ 
+### Add the Docker Hub Credentials to Jenkins
+ 
+ You could use your password for your Docker Hub credentials, but it’s better to create an access token to login into Docker Hub. The Jenkins pipeline will use your Docker Hub username and access token when pushing the Docker image to the Docker Hub repository. To create the Docker Hub access token, follow the steps below:
 
+First Step: Log into your Docker Hub account
+
+Second Step: Click Account Settings
+ 
+![Alt text](https://sweetcode.io/wp-content/uploads/2023/01/Lloyd-How-to-Build-and-Push_15.png)
+ 
+ Third Step: Click Security
+ 
+ Fourth Step: Click New Access Token
+ 
+ Fifth Step: Add Access Token Description
+ 
+ After adding the access token description, click `Generate`. Copy and save the generated access token. You will go back to the Jenkins `Manage Credentials` and add the new credentials 
+ 
+ Username: Dockerhub Username
+ 
+ Password: Access Token
+ 
+ ID: docker-credentials ( If you Change this you may need to add new ID to Jenkinsfile)
+ 
+ 
