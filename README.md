@@ -221,4 +221,4 @@ Click Generate token.
 
 Optionally, to copy the new token to your clipboard, click 
 
- !https://docs.github.com/assets/cb-39477/mw-1440/images/help/settings/personal_access_tokens.webp
+ ![Alt text](https://docs.github.com/assets/cb-39477/mw-1440/images/help/settings/personal_access_tokens.webp)
