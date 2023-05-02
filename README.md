@@ -11,7 +11,7 @@ Checkout the repo and move to the directory
 
 ```
 git clone https://github.com/Muhammadhassan1226/Java_CICD.git
-cd java_app
+cd JAVA_CICD/java_app
 ```
 
 Execute the Maven targets to generate the artifacts
