@@ -201,3 +201,24 @@ Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000
 5. Click OK.
  
  Your Sonarqube Server is Ready to Integrate with Jenkins for Static Code Analysis....
+ 
+ ### Creating a personal access token on Github for Jenkins instead of Password
+ 
+ In the upper-right corner of any page, click your profile photo, then click Settings. 
+ 
+
+In the left sidebar, click Developer settings.
+
+In the left sidebar, click Personal access tokens.
+
+Click Generate new token.
+
+In the "Note" field, give your token a descriptive name.
+
+To give your token an expiration, select Expiration, then choose a default option or click Custom to enter a date.
+
+Click Generate token.
+
+Optionally, to copy the new token to your clipboard, click 
+
+ !https://docs.github.com/assets/cb-39477/mw-1440/images/help/settings/personal_access_tokens.webp
