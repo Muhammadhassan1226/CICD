@@ -222,3 +222,12 @@ Click Generate token.
 Optionally, to copy the new token to your clipboard, click 
 
  ![Alt text](https://docs.github.com/assets/cb-39477/mw-1440/images/help/settings/personal_access_tokens.webp)
+ 
+ Go to Jenkins
+
+    Go to credentials > System > Global credentials > Add credentials a page will open.
+     Click the Global credentials (unrestricted) link in the System table.
+       Kind: Secret Text
+       Scope: Global
+       Secret: Paste Github Personal Access Token that Just Created here
+
