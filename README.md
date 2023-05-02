@@ -197,6 +197,7 @@ Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000
     Kind: Secret Text
     Scope: Global
     Secret: Generate a token at User > My Account > Security in SonarQube, and copy and paste it here.
+ 
     ID: sonarqube( If you Change this you may need to add new ID to Jenkinsfile)
 
 5. Click OK.
