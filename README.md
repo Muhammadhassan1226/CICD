@@ -226,8 +226,11 @@ Optionally, to copy the new token to your clipboard, click
  ### Add Token to Jenkins 
  
  Go to Jenkins Dashboard
+ 
  Go to credentials > System > Global credentials > Add credentials a page will open.
+ 
  Click the Global credentials (unrestricted) link in the System table
+ 
  Kind: Secret Text
  Scope: Global
  Secret: Paste Github Personal Access Token that Just Created here
