@@ -249,7 +249,7 @@ First Step: Log into your Docker Hub account
 
 Second Step: Click Account Settings
  
-![Alt text](https://github.com/Muhammadhassan1226/Java_CICD/blob/main/Screenshot%202023-05-02%20092616.png?raw=true)
+![Alt text](https://github.com/Muhammadhassan1226/Screenshots/blob/main/Screenshot%202023-05-02%20092616.png?raw=true)
  
  Third Step: Click Security
  
