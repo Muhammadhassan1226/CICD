@@ -253,7 +253,11 @@ Second Step: Click Account Settings
  
  Third Step: Click Security
  
+ ![Alt text](https://github.com/Muhammadhassan1226/Screenshots/blob/main/Screenshot%202023-05-02%20092913.png?raw=true)
+ 
  Fourth Step: Click New Access Token
+ 
+ ![Alt text](https://github.com/Muhammadhassan1226/Screenshots/blob/main/Screenshot%202023-05-02%20092959.png?raw=true)
  
  Fifth Step: Add Access Token Description
  
