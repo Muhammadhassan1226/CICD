@@ -14,7 +14,6 @@ public class StartApplication {
     public String index(final Model model) {
         model.addAttribute("title", "I have successfuly built a sprint boot application using Maven");
         model.addAttribute("msg", "This application is Ready to deployed on Kubernetes Cluster using Argo CD");
-        model.addAttribute("msg", "Follow this repo for more info > https://github.com/Muhammadhassan1226/Java_CICD.git")
         return "index";
     }
 
